@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Ulid } = require('id128');
 const chalk = require("chalk");
 const minimist = require("minimist");
