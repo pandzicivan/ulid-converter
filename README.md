@@ -2,6 +2,12 @@
 
 Convert ULID canoncial to raw and vice versa
 
+## Installation
+
+```
+npm i ulid-converter -g
+```
+
 ## Examples
 
 Lib can parse canonical ULID to HEX and vice versa. It also supports parsing of multiple values
@@ -11,13 +17,13 @@ Lib can parse canonical ULID to HEX and vice versa. It also supports parsing of 
 - Single value
 
 ```
-node bin.js 01ARZ3NDEKTSV4RRFFQ69G5FAV
+ulid-converter 01ARZ3NDEKTSV4RRFFQ69G5FAV
 ```
 
 - Multiple values value
 
 ```
-node bin.js 01ARZ3NDEKTSV4RRFFQ69G5FAV 01ARZ3NDEKTSV4RRFFQ69G5FAA
+ulid-converter 01ARZ3NDEKTSV4RRFFQ69G5FAV 01ARZ3NDEKTSV4RRFFQ69G5FAA
 ```
 
 
@@ -26,11 +32,11 @@ node bin.js 01ARZ3NDEKTSV4RRFFQ69G5FAV 01ARZ3NDEKTSV4RRFFQ69G5FAA
 - Single value
 
 ```
-node bin.js 01563E3AB5D3D6764C61EFB99302BD5B
+ulid-converter 01563E3AB5D3D6764C61EFB99302BD5B
 ```
 
 - Multiple values value
 
 ```
-node bin.js 01563E3AB5D3D6764C61EFB99302BD5B 01563E3AB5D3D6764C61EFB99302BD4A
+ulid-converter 01563E3AB5D3D6764C61EFB99302BD5B 01563E3AB5D3D6764C61EFB99302BD4A
 ```
