@@ -1,6 +1,6 @@
 {
   "name": "ulid-parser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ULID to canonical converter and vice versa",
   "bin": "bin.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "id128": "^1.6.6",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "ulid-parser": "^1.0.4"
   }
 }
