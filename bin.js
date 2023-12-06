@@ -9,7 +9,7 @@ const inputs = argv["_"];
 
 if (!inputs || !inputs.length) {
   console.error(chalk.red(`Input is missing.`))
-  console.info(chalk.yellow(`Try command 'ulid-converter 01ARZ3NDEKTSV4RRFFQ69G5FAV 01ARZ3NDEKTSV4RRFFQ69G5FAA'`))
+  console.info(chalk.yellow(`Try command 'ulid-parser 01ARZ3NDEKTSV4RRFFQ69G5FAV 01ARZ3NDEKTSV4RRFFQ69G5FAA'`))
   process.exit(-1);
 }
 
