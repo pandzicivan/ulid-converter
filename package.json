@@ -1,6 +1,6 @@
 {
-  "name": "ulid-converter",
-  "version": "1.0.3",
+  "name": "ulid-parser",
+  "version": "1.0.4",
   "description": "ULID to canonical converter and vice versa",
   "bin": "bin.js",
   "scripts": {

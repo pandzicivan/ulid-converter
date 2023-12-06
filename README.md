@@ -1,11 +1,11 @@
-# ULID Converter
+# ULID parser
 
 Convert ULID canoncial to raw and vice versa
 
 ## Installation
 
 ```
-npm i ulid-converter -g
+npm i ulid-parser -g
 ```
 
 ## Examples
