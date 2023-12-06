@@ -1,6 +1,6 @@
 # ULID parser
 
-Convert ULID canoncial to raw and vice versa
+Convert ULID canonical to raw and vice versa
 
 ## Installation
 
